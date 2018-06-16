@@ -1,0 +1,42 @@
+<html>
+
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+ <style>body {overflow:hidden}</style>
+</head>
+
+<body bgcolor=black scroll="no" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
+
+<OBJECT CLASSID="CLSID:6540685D-ABC2-4dfb-BC97-D71C5951B226" codebase='http://download.vidicor.ru/VidicorPlugin.exe'
+  WIDTH="100%" HEIGHT="100%">
+  <PARAM NAME="URL" VALUE="rmxvp://reflector1.vidicor.ru/innoprom/cam2">
+  <PARAM NAME="SyncSourceName" VALUE="sync">
+  <PARAM NAME="EnableLimit" VALUE="0">
+  <PARAM NAME="ShowControls" VALUE="1">
+  <PARAM NAME="maintainVideoAspectRatio" VALUE="0">
+
+  <embed type="application/x-vidicor-plugin" pluginspage='http://download.vidicor.ru/VidicorPlugin.exe'
+    WIDTH="100%" HEIGHT="100%" 
+    URL="rmxvp://reflector1.vidicor.ru/innoprom/cam2"
+    EnableLimit="0"
+    ShowControls="1"
+    maintainVideoAspectRatio="0"
+  </embed>
+</OBJECT>
+
+
+</body>
+</html>
+
+<!--
+Значения URL "rmxvp://reflector4.vidicor.ru/rec/cam1" и "rmxvp://reflector4.vidicor.ru/rec/snd" замените на соответствующие адресу и потоку видео- и аудио- серверов (обычно -- вида rmxvp://123.123.123.123/capture/livecam, где 123.123.123.123 -- IP адрес сервера),
+значения WIDTH и HEIGHT -- желаемые ширину и высоту окна изображения (в пикселах или в процентах).
+EnableLimit="0" -- не выдавать уведомление о превышении порога времени просмотра,
+ShowControls="0" -- не показывать панель управления (под видеоокном),
+MulticastTimeout="-1" -- не пытаться работать в режиме UDP Multicast,
+EnableAudio="0" - выключить звук, EnableVideo="0" - не выдавать видео.
+Sync - метка канала звука, к которому "присинхонизовывается" видео.
+SelectedVideoStream -- номер выдаваемого потока видео (0 -- вывод запроса).
+
+Если и звук, и видео - с одного сервера, то достаточно одного окна, где включены и звук, и картинка.
+-->

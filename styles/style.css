@@ -1,0 +1,161 @@
+
+body 
+{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin: 0;
+	background-color: #ffffff;
+	font-family: Verdana, Arial;
+}
+
+#FlashSwitch
+{
+	background:	LightYellow;
+}
+
+#up_arrow 
+{
+	height: 17px;
+	width: 17px;
+}
+
+.selectimg 
+{
+	cursor: hand;
+}
+
+.selectimg:hover { height: 40px; width: 40px;}
+
+#left_arrow 
+{
+	height: 17px;
+	width: 17px;
+}
+
+#right_arrow 
+{
+	height: 17px;
+	width: 17px;
+}
+
+#Frame
+{
+	margin: 0 21px 0px 21px;
+	width: auto;
+}
+ 
+#Frame_t 
+{
+	height: 13px;
+	background: #ffffff url(../img/frame_t.png) 0 0 repeat-x;
+}
+
+#Frame_tr1
+{
+	height: 50px;
+	width: 29px;
+	background: #ffffff url(../img/Frame_Shad_t_r.png) 0 0 no-repeat;
+}
+
+#Frame_l
+{
+	width: 13px;
+	background: #ffffff url(../img/frame_l.png) 0 0% repeat-y;
+}
+
+#Frame_m 
+{
+	top: -1;
+	background-color:#ffffff;
+}
+
+#Frame_r {
+	width: 29px;
+	background: #ffffff url(../img/frame_Shad_r.png) 0 0 repeat-y;
+}	
+
+#Frame_b 
+{
+	height: 29px;
+	background: #ffffff url(../img/frame_Shad_b.png) 0 0 repeat-x;
+}
+
+#Shadow_r
+{
+	height: 13px;
+	background: #ffffff url(../img/shadow_r.jpg) 0 0 repeat-y;
+}
+
+#Shadow_b
+{
+	height: 13px;
+	background: #ffffff url(../img/shadow_b.jpg) 0 0 repeat-x;
+}
+
+/* ********************************************************************** */
+
+.Speedbutton:hover{ text-transform:capitalize; text-decoration:blink; }
+
+a.ovalbutton
+{
+background: transparent url('../img/left.gif') no-repeat top left;
+display: block;
+float: center;
+font: normal 8px Tahoma;	/* Change 13px as desired */
+line-height: 20px;		/* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+height: 30px;			/* Height of button background height */
+padding-left: 10px;		/* Width of left menu image */
+text-decoration: none;
+white-space: nowrap;
+}
+
+a:link.ovalbutton, a:visited.ovalbutton, a:active.ovalbutton
+{
+color: #494949;			/*button text color*/
+}
+
+a.ovalbutton span
+{
+background: transparent url('../img/right.gif') no-repeat top right;
+display: block;
+padding: 4px 10px 6px 0px;	/* Положение текста на кнопке. Set 11px below to match value of 'padding-left' value above */
+}
+
+a.ovalbutton:hover
+{				/* Hover state CSS */
+background-position: bottom left;
+}
+
+a.ovalbutton:hover span{	/* Hover state CSS */
+background-position: bottom right;
+color: black;
+}
+
+a.selectedbutton
+{
+background: transparent url('../img/left2U.gif') no-repeat top left;
+display: block-level;
+float: center;
+font: bold 14px Tahoma;		/* Change 13px as desired */
+line-height: 20px;		/* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+height: 28px;			/* Height of button background height */
+padding-left: 10px;		/* Width of left menu image */
+text-decoration: blink;		/* Мигание выбранного */
+color: #ffffff;			/* button text color*/
+}
+
+a.selectedbutton span
+{
+background: transparent url('../img/right2U.gif') no-repeat top right;
+display: block;
+padding: 4px 10px 4px 0;	/* Положение текста на кнопке. Set 11px below to match value of 'padding-left' value above*/
+}
+
+.buttonwrapper
+{				/* Container you can use to surround a CSS button to clear float */
+overflow: hidden;		/*See: http://www.quirksmode.org/css/clearing.html */
+width: 100%;
+}
+
+/* ********************************************************************** */
